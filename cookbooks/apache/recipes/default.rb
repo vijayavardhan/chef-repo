@@ -11,7 +11,7 @@ package 'apache2' do
 end
 
 #Starts and enables apache service
-service 'webserver' do
+service 'apache2' do
 	service_name 'httpd'
 	action [:start, :enable]
 end
